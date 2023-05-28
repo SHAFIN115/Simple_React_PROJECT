@@ -105,6 +105,8 @@ export default function MyApp() {
   function handleClick() {
     setCount(count + 1);
   }
+  const color = "pink";
+  const time = "10:00 AM";
   return (
     <div>
       
@@ -135,7 +137,25 @@ export default function MyApp() {
         
 
       />
+      <div className="board-row">
+        <button className="square">1</button>
+        <button className="square">2</button>
+        <button className="square">3</button>
+      </div>
+      <div className="board-row">
+        <button className="square">4</button>
+        <button className="square">5</button>
+        <button className="square">6</button>
+      </div>
+      <div className="board-row">
+        <button className="square">7</button>
+        <button className="square">8</button>
+        <button className="square">9</button>
+      </div>
       
+      <h1 style={{ color: color }}>
+        {time}
+      </h1>
     </div>
   );
   
@@ -153,3 +173,5 @@ export function ShoppingList() {
     </li>
   );
   }
+ 
+  
