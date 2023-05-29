@@ -47,7 +47,7 @@
 import { useState } from 'react';
 function MyButton() {
   return (
-    <button>This is Shafin's Button</button>
+    <button>Yes it is</button>
   );
 }
 
